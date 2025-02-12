@@ -35,6 +35,7 @@ A Node.js application for managing products with full CRUD (Create, Read, Update
 │   ├── index.js                 # Routes for home and about pages
 │   └── product.js               # Routes for product CRUD operations
 ├── views
+|   ├── partials                 # Contains header.ejs and footer.ejs
 │   ├── index.ejs                # Home page template
 │   ├── about.ejs                # About page template
 │   ├── add_product.ejs          # Form for adding a product
@@ -44,7 +45,7 @@ A Node.js application for managing products with full CRUD (Create, Read, Update
 ├── .env                         # Environment variables (ignored by Git)
 ├── .gitignore                   # Files and folders to ignore in Git
 ├── app.js                       # Main application file
-└── README.md                    # This file
+└── README.md                    # README File 
 ```
 
 ## Installation
@@ -157,7 +158,8 @@ Feel free to fork the repository and submit pull requests. For major changes, pl
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For more details, please see the LICENSE file.
+
 
 ## Acknowledgements
 
