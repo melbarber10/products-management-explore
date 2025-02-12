@@ -1,0 +1,78 @@
+<%- include('partials/header') %>
+<div class="container">
+    <h2 class="text-center text-bg-primary" style="margin-top: 20px;">Add New Product</h2>
+    <form style="margin-top: 30px; margin-bottom: 50px;" method="post" enctype="multipart/form-data">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">Product Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="quantity">Quantity:</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" required>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="price">Price:</label>
+                <input type="number" class="form-control" id="price" name="price" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="category">Category:</label>
+                <select class="form-control" id="category" name="category" required>
+                    <option selected disabled>Select a category</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="toys">Toys</option>
+                    <option value="beauty">Beauty Products</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="image">Product Image:</label>
+            <input type="file" class="form-control" id="image" name="image" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Add Product</button>
+            <a href="/" class="btn btn-secondary btn-lg btn-block">Cancel</a>
+        </div>
+    </form>
+</div>
+<style>
+    .container {
+        background-color: #f9f9f9;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .form-control, .btn {
+        border-radius: 5px;
+    }
+    label {
+        font-weight: bold;
+    }
+    button[type="submit"] {
+        background-color: #007bff;
+        border: none;
+    }
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    a.btn-secondary {
+        background-color: #6c757d;
+        border: none;
+    }
+    a.btn-secondary:hover {
+        background-color: #565e64;
+    }
+</style>

@@ -1,0 +1,24 @@
+{
+  "name": "products-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node.js"
+  },
+  "keywords": [],
+  "author": "Mohamed elbarber",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-fileupload": "^1.5.1",
+    "express-session": "^1.18.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}

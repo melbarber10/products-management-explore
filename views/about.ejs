@@ -1,0 +1,68 @@
+<%- include('partials/header') %>
+
+<div class="container" style="margin-top: 50px; max-width: 800px;">
+    <h1 class="text-center text-bg-success mb-4">About Us</h1>
+    
+    <div class="about-content text-center" style="margin-top: 30px;">
+        <h2 class="text-light">Our Mission</h2>
+        <p class="lead">
+            At Explore, our mission is to provide high-quality products that enrich your everyday life. 
+            We believe in the joy of exploration and aim to help you discover items that meet your needs.
+        </p>
+
+        <h2 class="text-light">Our Values</h2>
+        <p class="lead">
+            We are dedicated to:
+        </p>
+        <ul class="text-left" style="margin: 0 auto; display: inline-block;">
+            <li>Integrity: Upholding honesty in all our dealings.</li>
+            <li>Customer Satisfaction: Ensuring our customers are happy with their purchases.</li>
+            <li>Innovation: Continuously improving and updating our offerings.</li>
+        </ul>
+    </div>
+
+    <div class="text-center mt-5">
+        <h3 class="text-info">Join Us on Our Journey!</h3>
+        <p>Explore our diverse range of products and experience the joy of discovery.</p>
+        <a href="/" class="btn btn-primary btn-lg">Start Exploring</a>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
+
+<style>
+    .about-content h2 {
+        font-size: 28px;
+        margin: 20px 0;
+        color: lightseagreen;
+    }
+
+    .about-content p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.5; 
+    }
+
+    .about-content ul {
+        list-style-type: none; 
+        padding: 0; 
+        color: #555;
+        font-size: 18px; 
+    }
+
+    .about-content {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary {
+        background-color: lightseagreen;
+        border: none;
+    }
+
+    .btn-primary:hover {
+        background-color: #007bff;
+    }
+</style>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=title %></title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <style>
+      .navbar-custom {
+        background-color: navajowhite;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px 20px;
+      }
+
+      .navbar-brand {
+        font-family:  'Arial Narrow', Arial, sans-serif ;
+        font-size: 34px;
+        font-weight: bold;
+        color:lightseagreen; 
+        display: flex;
+        align-items: center; 
+      }
+
+      .navbar-brand img {
+        margin-right: 15px; 
+      }
+
+      .btn-custom {
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-header">
+      <nav class="navbar navbar-dark navbar-custom">
+        <a href="/" class="navbar-brand">
+          <img src="/assets/images/logo.jpg" width="90" height="90" alt="Logo">
+          Feel Free to Explore
+        </a>
+        <a class="btn btn-outline-primary btn-custom" href="/add">Add Product</a>
+      </nav>
+    </div>
+  </body>
+</html>
